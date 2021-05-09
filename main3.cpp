@@ -12,30 +12,28 @@ void main()
 	double y;
 
 	int a;
-	printf("Enter task number: ");
+	cout<<"Enter task number: ";
 	cin >> a;
 	switch (a)
 	{
 	case 1:
-		printf("\nTask 1: ");
-		printf("\nx = ");
+		cout<<"Task 1: "<<endl;
+		cout<<"x = ";
 		cin >> x;
-		printf("\ny = ");
+		cout<<"y = ";
 		cin >> y;
 
-		printf("\nResult: ");
-		cout << isInArea(x, y) << endl;
+		cout<<"Result: "<< isInArea(x, y) << endl;;
 		break;
 	case 2:
-		printf("\nTask 2: ");
-		printf("\nx = ");
+		cout<<"Task 2: "<<endl;
+		cout<<"x = ";
 		cin >> x;
 		
-		printf("Result: f(x) = ");
-				cout << f(x)<< endl;
+		cout<<"Result: f(x) = "<< f(x);
 		break;
 	default:
-		printf("Incorrect input");
+		cout<<"Incorrect input"<<endl;
 		break;
 	};
 }
