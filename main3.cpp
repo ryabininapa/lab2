@@ -22,8 +22,9 @@ void main()
 		cin >> x;
 		cout<<"y = ";
 		cin >> y;
-
-		cout<<"Result: "<< isInArea(x, y) << endl;;
+		if (isInArea(x,y)==true)
+			cout<<"Result: "<< "The dot is in area" << endl;
+		else cout << "Result: " << "The dot is not in area" << endl;
 		break;
 	case 2:
 		cout<<"Task 2: "<<endl;
